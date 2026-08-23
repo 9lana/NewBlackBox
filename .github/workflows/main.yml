@@ -24,7 +24,7 @@ jobs:
       - name: give permission for gradlew
         run: chmod +x gradlew
       - name: build app
-        run: ./gradlew assembleRelease
+        run: ./gradlew assembleRelease :Bcore:assembleDebug :Bcore:assembleRelease :black-reflection:assemble :compiler:assemble
       - name: Upload apk artifact
         uses: actions/upload-artifact@v4
         with:
