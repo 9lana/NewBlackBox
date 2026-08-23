@@ -25,6 +25,11 @@ jobs:
         run: chmod +x gradlew
       - name: build app
         run: ./gradlew assembleRelease
+      - name: Upload apk artifact
+        uses: action/upload-artifact@v4
+        with:
+          name: amdroid-app
+          path: /app/build/outputs/apk/release/*.apk
       
         
         
