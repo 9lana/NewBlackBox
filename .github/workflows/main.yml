@@ -24,6 +24,8 @@ jobs:
       - name: give permission for gradlew
         run: chmod +x gradlew
       - name: build app
+        env:
+          JAVA_HOME: ${{ env.JAVA_HOME_21_X64 }}
         run: ./gradlew assembleRelease :Bcore:assembleDebug :Bcore:assembleRelease :black-reflection:assemble :compiler:assemble
       - name: Upload apk artifact
         uses: actions/upload-artifact@v4
