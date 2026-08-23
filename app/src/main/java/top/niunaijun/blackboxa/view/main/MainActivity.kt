@@ -406,7 +406,7 @@ class MainActivity : LoadingActivity() {
                     val intent =
                             Intent(
                                     Intent.ACTION_VIEW,
-                                    Uri.parse("https://github.com/ALEX5402/NewBlackbox")
+                                    Uri.parse("https://google.com")
                             )
                     startActivity(intent)
                 }
@@ -414,7 +414,7 @@ class MainActivity : LoadingActivity() {
                     SettingActivity.start(this)
                 }
                 R.id.main_tg -> {
-                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/newblackboxa"))
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://google.com"))
                     startActivity(intent)
                 }
                 R.id.fake_location -> {

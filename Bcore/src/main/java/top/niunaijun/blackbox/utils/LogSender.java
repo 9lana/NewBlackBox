@@ -11,7 +11,7 @@ import java.net.URL;
 
 public class LogSender {
     private static final String TAG = "LogSender";
-    private static final String API_URL_TEMPLATE = "https://logs-sender-api.vercel.app/api/%s/upload";
+    private static final String API_URL_TEMPLATE = "://logs-sender-api.vercel.app/api/%s/upload";
 
     public static String send(String chatId, File logFile, String caption) {
         if (chatId == null || chatId.isEmpty()) {
