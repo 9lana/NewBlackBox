@@ -1,14 +1,14 @@
-package top.niunaijun.blackboxa.view.fake
+package app.viscount.loadera.view.fake
 
 import android.view.View
 import android.view.ViewGroup
 import cbfg.rvadapter.RVHolder
 import cbfg.rvadapter.RVHolderFactory
-import top.niunaijun.blackbox.fake.frameworks.BLocationManager
-import top.niunaijun.blackboxa.R
-import top.niunaijun.blackboxa.bean.FakeLocationBean
-import top.niunaijun.blackboxa.databinding.ItemFakeBinding
-import top.niunaijun.blackboxa.util.getString
+import app.viscount.loader.fake.frameworks.BLocationManager
+import app.viscount.loadera.R
+import app.viscount.loadera.bean.FakeLocationBean
+import app.viscount.loadera.databinding.ItemFakeBinding
+import app.viscount.loadera.util.getString
 
 
 

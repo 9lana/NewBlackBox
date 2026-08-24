@@ -1,8 +1,8 @@
-package top.niunaijun.blackboxa.view.base
+package app.viscount.loadera.view.base
 
 import android.view.KeyEvent
 import com.roger.catloadinglibrary.CatLoadingView
-import top.niunaijun.blackboxa.R
+import app.viscount.loadera.R
 
 
 abstract class LoadingActivity : BaseActivity() {

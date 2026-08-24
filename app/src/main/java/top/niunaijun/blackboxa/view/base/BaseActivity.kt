@@ -1,4 +1,4 @@
-package top.niunaijun.blackboxa.view.base
+package app.viscount.loadera.view.base
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar

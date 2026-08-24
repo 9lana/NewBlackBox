@@ -1,10 +1,10 @@
-package top.niunaijun.blackboxa.view.fake
+package app.viscount.loadera.view.fake
 
 import androidx.lifecycle.MutableLiveData
-import top.niunaijun.blackbox.entity.location.BLocation
-import top.niunaijun.blackboxa.bean.FakeLocationBean
-import top.niunaijun.blackboxa.data.FakeLocationRepository
-import top.niunaijun.blackboxa.view.base.BaseViewModel
+import app.viscount.loader.entity.location.BLocation
+import app.viscount.loadera.bean.FakeLocationBean
+import app.viscount.loadera.data.FakeLocationRepository
+import app.viscount.loadera.view.base.BaseViewModel
 
 
 class FakeLocationViewModel(private val mRepo: FakeLocationRepository) : BaseViewModel() {

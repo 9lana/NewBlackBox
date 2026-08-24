@@ -1,12 +1,12 @@
-package top.niunaijun.blackboxa.view.main
+package app.viscount.loadera.view.main
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import top.niunaijun.blackbox.BlackBoxCore
-import top.niunaijun.blackboxa.util.InjectionUtil
-import top.niunaijun.blackboxa.view.list.ListViewModel
+import app.viscount.loader.BlackBoxCore
+import app.viscount.loadera.util.InjectionUtil
+import app.viscount.loadera.view.list.ListViewModel
 
 class WelcomeActivity : AppCompatActivity() {
 

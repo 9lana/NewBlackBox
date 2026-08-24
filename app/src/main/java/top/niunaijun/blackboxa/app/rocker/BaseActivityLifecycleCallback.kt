@@ -1,4 +1,4 @@
-package top.niunaijun.blackboxa.app.rocker
+package app.viscount.loadera.app.rocker
 
 import android.app.Activity
 import android.app.Application

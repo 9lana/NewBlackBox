@@ -1,10 +1,10 @@
-package top.niunaijun.blackboxa.view.main
+package app.viscount.loadera.view.main
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.launch
-import top.niunaijun.blackbox.BlackBoxCore
+import app.viscount.loader.BlackBoxCore
 
 
 class ShortcutActivity:AppCompatActivity() {

@@ -1,4 +1,4 @@
-package top.niunaijun.blackboxa.view.main
+package app.viscount.loadera.view.main
 
 import android.content.Context
 import android.content.Intent
@@ -13,18 +13,18 @@ import androidx.core.content.edit
 import androidx.viewpager2.widget.ViewPager2
 import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.input.input
-import top.niunaijun.blackbox.BlackBoxCore
-import top.niunaijun.blackboxa.R
-import top.niunaijun.blackboxa.app.App
-import top.niunaijun.blackboxa.app.AppManager
-import top.niunaijun.blackboxa.databinding.ActivityMainBinding
-import top.niunaijun.blackboxa.util.Resolution
-import top.niunaijun.blackboxa.util.inflate
-import top.niunaijun.blackboxa.view.apps.AppsFragment
-import top.niunaijun.blackboxa.view.base.LoadingActivity
-import top.niunaijun.blackboxa.view.fake.FakeManagerActivity
-import top.niunaijun.blackboxa.view.list.ListActivity
-import top.niunaijun.blackboxa.view.setting.SettingActivity
+import app.viscount.loader.BlackBoxCore
+import app.viscount.loadera.R
+import app.viscount.loadera.app.App
+import app.viscount.loadera.app.AppManager
+import app.viscount.loadera.databinding.ActivityMainBinding
+import app.viscount.loadera.util.Resolution
+import app.viscount.loadera.util.inflate
+import app.viscount.loadera.view.apps.AppsFragment
+import app.viscount.loadera.view.base.LoadingActivity
+import app.viscount.loadera.view.fake.FakeManagerActivity
+import app.viscount.loadera.view.list.ListActivity
+import app.viscount.loadera.view.setting.SettingActivity
 
 class MainActivity : LoadingActivity() {
 

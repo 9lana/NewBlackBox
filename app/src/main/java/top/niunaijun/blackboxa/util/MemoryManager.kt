@@ -1,4 +1,4 @@
-package top.niunaijun.blackboxa.util
+package app.viscount.loadera.util
 
 import android.util.Log
 import java.lang.Runtime

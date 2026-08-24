@@ -1,4 +1,4 @@
-package top.niunaijun.blackboxa.util
+package app.viscount.loadera.util
 
 import android.content.Context
 import android.content.Intent
@@ -8,12 +8,12 @@ import androidx.core.graphics.drawable.IconCompat
 import androidx.core.graphics.drawable.toBitmap
 import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.input.input
-import top.niunaijun.blackboxa.R
-import top.niunaijun.blackboxa.app.App
-import top.niunaijun.blackboxa.app.AppManager
-import top.niunaijun.blackboxa.bean.AppInfo
-import top.niunaijun.blackboxa.util.ContextUtil.openAppSystemSettings
-import top.niunaijun.blackboxa.view.main.ShortcutActivity
+import app.viscount.loadera.R
+import app.viscount.loadera.app.App
+import app.viscount.loadera.app.AppManager
+import app.viscount.loadera.bean.AppInfo
+import app.viscount.loadera.util.ContextUtil.openAppSystemSettings
+import app.viscount.loadera.view.main.ShortcutActivity
 
 
 object ShortcutUtil {

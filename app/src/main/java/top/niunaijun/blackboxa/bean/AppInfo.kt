@@ -1,4 +1,4 @@
-package top.niunaijun.blackboxa.bean
+package app.viscount.loadera.bean
 
 import android.graphics.drawable.Drawable
 

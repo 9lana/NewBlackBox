@@ -1,12 +1,12 @@
-package top.niunaijun.blackboxa.view.list
+package app.viscount.loadera.view.list
 
 import android.view.View
 import android.view.ViewGroup
 import cbfg.rvadapter.RVHolder
 import cbfg.rvadapter.RVHolderFactory
-import top.niunaijun.blackboxa.R
-import top.niunaijun.blackboxa.bean.InstalledAppBean
-import top.niunaijun.blackboxa.databinding.ItemPackageBinding
+import app.viscount.loadera.R
+import app.viscount.loadera.bean.InstalledAppBean
+import app.viscount.loadera.databinding.ItemPackageBinding
 
 
 

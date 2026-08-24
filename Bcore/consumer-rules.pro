@@ -20,7 +20,7 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep class top.niunaijun.blackbox.** {*; }
+-keep class app.viscount.loader.** {*; }
 -keep class top.niunaijun.jnihook.** {*; }
 -keep class mirror.** {*; }
 -keep class android.** {*; }

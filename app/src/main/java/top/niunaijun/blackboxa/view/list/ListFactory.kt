@@ -1,8 +1,8 @@
-package top.niunaijun.blackboxa.view.list
+package app.viscount.loadera.view.list
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import top.niunaijun.blackboxa.data.AppsRepository
+import app.viscount.loadera.data.AppsRepository
 
 
 @Suppress("UNCHECKED_CAST")

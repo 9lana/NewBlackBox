@@ -1,10 +1,10 @@
-package top.niunaijun.blackboxa.view.gms
+package app.viscount.loadera.view.gms
 
 import androidx.lifecycle.MutableLiveData
-import top.niunaijun.blackboxa.bean.GmsBean
-import top.niunaijun.blackboxa.bean.GmsInstallBean
-import top.niunaijun.blackboxa.data.GmsRepository
-import top.niunaijun.blackboxa.view.base.BaseViewModel
+import app.viscount.loadera.bean.GmsBean
+import app.viscount.loadera.bean.GmsInstallBean
+import app.viscount.loadera.data.GmsRepository
+import app.viscount.loadera.view.base.BaseViewModel
 
 
 class GmsViewModel(private val mRepo: GmsRepository) : BaseViewModel() {

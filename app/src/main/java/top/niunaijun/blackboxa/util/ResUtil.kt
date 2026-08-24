@@ -1,7 +1,7 @@
-package top.niunaijun.blackboxa.util
+package app.viscount.loadera.util
 
 import androidx.annotation.StringRes
-import top.niunaijun.blackboxa.app.App
+import app.viscount.loadera.app.App
 
 
 fun getString(@StringRes id:Int,vararg arg:String):String{

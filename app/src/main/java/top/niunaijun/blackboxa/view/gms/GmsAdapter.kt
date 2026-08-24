@@ -1,12 +1,12 @@
-package top.niunaijun.blackboxa.view.gms
+package app.viscount.loadera.view.gms
 
 import android.view.View
 import android.view.ViewGroup
 import cbfg.rvadapter.RVHolder
 import cbfg.rvadapter.RVHolderFactory
-import top.niunaijun.blackboxa.R
-import top.niunaijun.blackboxa.bean.GmsBean
-import top.niunaijun.blackboxa.databinding.ItemGmsBinding
+import app.viscount.loadera.R
+import app.viscount.loadera.bean.GmsBean
+import app.viscount.loadera.databinding.ItemGmsBinding
 
 
 class GmsAdapter : RVHolderFactory() {

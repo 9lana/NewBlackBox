@@ -1,10 +1,10 @@
-package top.niunaijun.blackboxa.app
+package app.viscount.loadera.app
 
 import android.annotation.SuppressLint
 import android.app.Application
 import android.content.Context
 import android.util.Log
-import top.niunaijun.blackbox.BlackBoxCore
+import app.viscount.loader.BlackBoxCore
 
 
 class App : Application() {

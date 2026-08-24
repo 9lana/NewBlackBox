@@ -1,16 +1,16 @@
-package top.niunaijun.blackboxa.view.main
+package app.viscount.loadera.view.main
 
 import android.app.Application
 import android.content.Context
 import android.util.Log
 import java.io.File
-import top.niunaijun.blackbox.BlackBoxCore
-import top.niunaijun.blackbox.app.BActivityThread
-import top.niunaijun.blackbox.app.configuration.AppLifecycleCallback
-import top.niunaijun.blackbox.app.configuration.ClientConfiguration
-import top.niunaijun.blackboxa.app.App
-import top.niunaijun.blackboxa.app.rocker.RockerManager
-import top.niunaijun.blackboxa.biz.cache.AppSharedPreferenceDelegate
+import app.viscount.loader.BlackBoxCore
+import app.viscount.loader.app.BActivityThread
+import app.viscount.loader.app.configuration.AppLifecycleCallback
+import app.viscount.loader.app.configuration.ClientConfiguration
+import app.viscount.loadera.app.App
+import app.viscount.loadera.app.rocker.RockerManager
+import app.viscount.loadera.biz.cache.AppSharedPreferenceDelegate
 
 
 class BlackBoxLoader {
@@ -193,7 +193,7 @@ class BlackBoxLoader {
                                         
                                         val intent =
                                                 android.content.Intent(
-                                                        "top.niunaijun.blackboxa.REQUEST_STORAGE_PERMISSION"
+                                                        "app.viscount.loadera.REQUEST_STORAGE_PERMISSION"
                                                 )
                                         intent.putExtra("package_name", packageName)
                                         intent.putExtra("user_id", userId)

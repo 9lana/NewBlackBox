@@ -1,7 +1,7 @@
-package top.niunaijun.blackboxa.bean
+package app.viscount.loadera.bean
 
 import android.graphics.drawable.Drawable
-import top.niunaijun.blackbox.entity.location.BLocation
+import app.viscount.loader.entity.location.BLocation
 
 data class FakeLocationBean(
     val userID: Int,

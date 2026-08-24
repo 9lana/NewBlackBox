@@ -1,9 +1,9 @@
-package top.niunaijun.blackboxa.view.apps
+package app.viscount.loadera.view.apps
 
 import androidx.lifecycle.MutableLiveData
-import top.niunaijun.blackboxa.bean.AppInfo
-import top.niunaijun.blackboxa.data.AppsRepository
-import top.niunaijun.blackboxa.view.base.BaseViewModel
+import app.viscount.loadera.bean.AppInfo
+import app.viscount.loadera.data.AppsRepository
+import app.viscount.loadera.view.base.BaseViewModel
 import android.util.Log
 
 

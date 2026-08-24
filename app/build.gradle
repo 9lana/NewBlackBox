@@ -5,11 +5,11 @@ plugins {
 
 android {
 
-    namespace 'top.niunaijun.blackboxa'
+    namespace 'app.viscount.loadera'
     compileSdk rootProject.ext.compileSdkVersion
     ndkVersion = "29.0.13846066"
     defaultConfig {
-        applicationId "top.niunaijun.blackbox"
+        applicationId "app.viscount.loader"
         minSdk rootProject.ext.minSdk
         targetSdk rootProject.ext.targetSdkVersion
         versionCode rootProject.ext.versionCode

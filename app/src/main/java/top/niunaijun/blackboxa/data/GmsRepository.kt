@@ -1,12 +1,12 @@
-package top.niunaijun.blackboxa.data
+package app.viscount.loadera.data
 
 import androidx.lifecycle.MutableLiveData
-import top.niunaijun.blackbox.BlackBoxCore
-import top.niunaijun.blackboxa.R
-import top.niunaijun.blackboxa.app.AppManager
-import top.niunaijun.blackboxa.bean.GmsBean
-import top.niunaijun.blackboxa.bean.GmsInstallBean
-import top.niunaijun.blackboxa.util.getString
+import app.viscount.loader.BlackBoxCore
+import app.viscount.loadera.R
+import app.viscount.loadera.app.AppManager
+import app.viscount.loadera.bean.GmsBean
+import app.viscount.loadera.bean.GmsInstallBean
+import app.viscount.loadera.util.getString
 
 
 class GmsRepository {

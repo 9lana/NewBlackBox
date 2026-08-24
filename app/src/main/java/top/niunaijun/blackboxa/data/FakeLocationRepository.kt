@@ -1,12 +1,12 @@
-package top.niunaijun.blackboxa.data
+package app.viscount.loadera.data
 
 import android.content.pm.ApplicationInfo
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
-import top.niunaijun.blackbox.BlackBoxCore
-import top.niunaijun.blackbox.entity.location.BLocation
-import top.niunaijun.blackbox.fake.frameworks.BLocationManager
-import top.niunaijun.blackboxa.bean.FakeLocationBean
+import app.viscount.loader.BlackBoxCore
+import app.viscount.loader.entity.location.BLocation
+import app.viscount.loader.fake.frameworks.BLocationManager
+import app.viscount.loadera.bean.FakeLocationBean
 
 
 class FakeLocationRepository {

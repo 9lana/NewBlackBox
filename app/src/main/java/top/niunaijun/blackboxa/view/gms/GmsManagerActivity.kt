@@ -1,4 +1,4 @@
-package top.niunaijun.blackboxa.view.gms
+package app.viscount.loadera.view.gms
 
 import android.content.Context
 import android.content.Intent
@@ -8,13 +8,13 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import cbfg.rvadapter.RVAdapter
 import com.afollestad.materialdialogs.MaterialDialog
-import top.niunaijun.blackboxa.R
-import top.niunaijun.blackboxa.bean.GmsBean
-import top.niunaijun.blackboxa.databinding.ActivityGmsBinding
-import top.niunaijun.blackboxa.util.InjectionUtil
-import top.niunaijun.blackboxa.util.inflate
-import top.niunaijun.blackboxa.util.toast
-import top.niunaijun.blackboxa.view.base.LoadingActivity
+import app.viscount.loadera.R
+import app.viscount.loadera.bean.GmsBean
+import app.viscount.loadera.databinding.ActivityGmsBinding
+import app.viscount.loadera.util.InjectionUtil
+import app.viscount.loadera.util.inflate
+import app.viscount.loadera.util.toast
+import app.viscount.loadera.view.base.LoadingActivity
 
 
 class GmsManagerActivity : LoadingActivity() {

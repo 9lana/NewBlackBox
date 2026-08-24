@@ -1,4 +1,4 @@
-package top.niunaijun.blackboxa.view.apps
+package app.viscount.loadera.view.apps
 
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView

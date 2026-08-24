@@ -1,9 +1,9 @@
-package top.niunaijun.blackboxa.widget
+package app.viscount.loadera.widget
 
 import android.content.Context
 import android.view.MotionEvent
 import com.imuxuan.floatingview.FloatingMagnetView
-import top.niunaijun.blackboxa.R
+import app.viscount.loadera.R
 
 
 class EnFloatView(mContext: Context) : FloatingMagnetView(mContext) {

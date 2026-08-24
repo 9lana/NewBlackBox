@@ -1,13 +1,13 @@
-package top.niunaijun.blackboxa.util
+package app.viscount.loadera.util
 
-import top.niunaijun.blackboxa.data.AppsRepository
-import top.niunaijun.blackboxa.data.FakeLocationRepository
-import top.niunaijun.blackboxa.data.GmsRepository
+import app.viscount.loadera.data.AppsRepository
+import app.viscount.loadera.data.FakeLocationRepository
+import app.viscount.loadera.data.GmsRepository
 
-import top.niunaijun.blackboxa.view.apps.AppsFactory
-import top.niunaijun.blackboxa.view.fake.FakeLocationFactory
-import top.niunaijun.blackboxa.view.gms.GmsFactory
-import top.niunaijun.blackboxa.view.list.ListFactory
+import app.viscount.loadera.view.apps.AppsFactory
+import app.viscount.loadera.view.fake.FakeLocationFactory
+import app.viscount.loadera.view.gms.GmsFactory
+import app.viscount.loadera.view.list.ListFactory
 
 
 

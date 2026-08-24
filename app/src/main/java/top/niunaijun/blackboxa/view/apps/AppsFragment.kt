@@ -1,4 +1,4 @@
-package top.niunaijun.blackboxa.view.apps
+package app.viscount.loadera.view.apps
 
 import android.graphics.Point
 import android.os.Bundle
@@ -17,17 +17,17 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
 import cbfg.rvadapter.RVAdapter
 import com.afollestad.materialdialogs.MaterialDialog
-import top.niunaijun.blackbox.BlackBoxCore
-import top.niunaijun.blackboxa.R
-import top.niunaijun.blackboxa.bean.AppInfo
-import top.niunaijun.blackboxa.databinding.FragmentAppsBinding
-import top.niunaijun.blackboxa.util.InjectionUtil
-import top.niunaijun.blackboxa.util.ShortcutUtil
-import top.niunaijun.blackboxa.util.inflate
-import top.niunaijun.blackboxa.util.MemoryManager
-import top.niunaijun.blackboxa.util.toast
-import top.niunaijun.blackboxa.view.base.LoadingActivity
-import top.niunaijun.blackboxa.view.main.MainActivity
+import app.viscount.loader.BlackBoxCore
+import app.viscount.loadera.R
+import app.viscount.loadera.bean.AppInfo
+import app.viscount.loadera.databinding.FragmentAppsBinding
+import app.viscount.loadera.util.InjectionUtil
+import app.viscount.loadera.util.ShortcutUtil
+import app.viscount.loadera.util.inflate
+import app.viscount.loadera.util.MemoryManager
+import app.viscount.loadera.util.toast
+import app.viscount.loadera.view.base.LoadingActivity
+import app.viscount.loadera.view.main.MainActivity
 import java.util.*
 import kotlin.math.abs
 

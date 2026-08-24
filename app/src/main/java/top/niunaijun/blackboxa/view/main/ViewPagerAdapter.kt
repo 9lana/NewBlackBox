@@ -1,9 +1,9 @@
-package top.niunaijun.blackboxa.view.main
+package app.viscount.loadera.view.main
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import top.niunaijun.blackboxa.view.apps.AppsFragment
+import app.viscount.loadera.view.apps.AppsFragment
 
 
 

@@ -1,12 +1,12 @@
-package top.niunaijun.blackboxa.view.setting
+package app.viscount.loadera.view.setting
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import top.niunaijun.blackboxa.R
-import top.niunaijun.blackboxa.databinding.ActivitySettingBinding
-import top.niunaijun.blackboxa.util.inflate
-import top.niunaijun.blackboxa.view.base.BaseActivity
+import app.viscount.loadera.R
+import app.viscount.loadera.databinding.ActivitySettingBinding
+import app.viscount.loadera.util.inflate
+import app.viscount.loadera.view.base.BaseActivity
 
 class SettingActivity : BaseActivity() {
 

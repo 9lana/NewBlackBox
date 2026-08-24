@@ -1,4 +1,4 @@
-package top.niunaijun.blackboxa.view.list
+package app.viscount.loadera.view.list
 
 import android.app.Activity
 import android.content.Context
@@ -12,12 +12,12 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import cbfg.rvadapter.RVAdapter
 import com.ferfalk.simplesearchview.SimpleSearchView
-import top.niunaijun.blackboxa.R
-import top.niunaijun.blackboxa.bean.InstalledAppBean
-import top.niunaijun.blackboxa.databinding.ActivityListBinding
-import top.niunaijun.blackboxa.util.InjectionUtil
-import top.niunaijun.blackboxa.util.inflate
-import top.niunaijun.blackboxa.view.base.BaseActivity
+import app.viscount.loadera.R
+import app.viscount.loadera.bean.InstalledAppBean
+import app.viscount.loadera.databinding.ActivityListBinding
+import app.viscount.loadera.util.InjectionUtil
+import app.viscount.loadera.util.inflate
+import app.viscount.loadera.view.base.BaseActivity
 
 class ListActivity : BaseActivity() {
 

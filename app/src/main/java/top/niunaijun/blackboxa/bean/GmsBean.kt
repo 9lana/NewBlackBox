@@ -1,4 +1,4 @@
-package top.niunaijun.blackboxa.bean
+package app.viscount.loadera.bean
 
 
 data class GmsBean(val userID:Int,val userName:String,var isInstalledGms:Boolean)

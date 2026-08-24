@@ -1,4 +1,4 @@
-package top.niunaijun.blackboxa.widget;
+package app.viscount.loadera.widget;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -18,7 +18,7 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import top.niunaijun.blackboxa.util.MathUtil;
+import app.viscount.loadera.util.MathUtil;
 
 
 

@@ -1,9 +1,9 @@
-package top.niunaijun.blackboxa.util
+package app.viscount.loadera.util
 
 import android.content.Context
 import android.widget.Toast
 import androidx.annotation.StringRes
-import top.niunaijun.blackboxa.app.App
+import app.viscount.loadera.app.App
 
 
 var toastImpl:Toast? = null

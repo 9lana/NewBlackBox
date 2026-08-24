@@ -1,9 +1,9 @@
-package top.niunaijun.blackboxa.app
+package app.viscount.loadera.app
 
 import android.content.Context
 import android.content.SharedPreferences
 import android.util.Log
-import top.niunaijun.blackboxa.view.main.BlackBoxLoader
+import app.viscount.loadera.view.main.BlackBoxLoader
 
 
 object AppManager {

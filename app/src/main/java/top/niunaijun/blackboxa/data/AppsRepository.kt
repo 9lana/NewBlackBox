@@ -1,4 +1,4 @@
-package top.niunaijun.blackboxa.data
+package app.viscount.loadera.data
 
 import android.content.pm.ApplicationInfo
 import android.net.Uri
@@ -6,14 +6,14 @@ import android.util.Log
 import android.webkit.URLUtil
 import androidx.lifecycle.MutableLiveData
 import java.io.File
-import top.niunaijun.blackbox.BlackBoxCore
-import top.niunaijun.blackbox.utils.AbiUtils
-import top.niunaijun.blackboxa.R
-import top.niunaijun.blackboxa.app.AppManager
-import top.niunaijun.blackboxa.bean.AppInfo
-import top.niunaijun.blackboxa.bean.InstalledAppBean
-import top.niunaijun.blackboxa.util.MemoryManager
-import top.niunaijun.blackboxa.util.getString
+import app.viscount.loader.BlackBoxCore
+import app.viscount.loader.utils.AbiUtils
+import app.viscount.loadera.R
+import app.viscount.loadera.app.AppManager
+import app.viscount.loadera.bean.AppInfo
+import app.viscount.loadera.bean.InstalledAppBean
+import app.viscount.loadera.util.MemoryManager
+import app.viscount.loadera.util.getString
 
 
 class AppsRepository {

@@ -1,4 +1,4 @@
-package top.niunaijun.blackboxa.app.rocker
+package app.viscount.loadera.app.rocker
 
 import android.app.Activity
 import android.app.Application
@@ -11,10 +11,10 @@ import com.imuxuan.floatingview.FloatingMagnetView
 import com.imuxuan.floatingview.FloatingView
 import kotlin.math.cos
 import kotlin.math.sin
-import top.niunaijun.blackbox.entity.location.BLocation
-import top.niunaijun.blackbox.fake.frameworks.BLocationManager
-import top.niunaijun.blackboxa.app.App
-import top.niunaijun.blackboxa.widget.EnFloatView
+import app.viscount.loader.entity.location.BLocation
+import app.viscount.loader.fake.frameworks.BLocationManager
+import app.viscount.loadera.app.App
+import app.viscount.loadera.widget.EnFloatView
 
 
 

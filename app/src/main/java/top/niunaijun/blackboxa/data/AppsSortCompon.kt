@@ -1,4 +1,4 @@
-package top.niunaijun.blackboxa.data
+package app.viscount.loadera.data
 
 import android.content.pm.ApplicationInfo
 

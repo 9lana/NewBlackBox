@@ -88,7 +88,7 @@ Added comprehensive device info header in logcat for easier debugging:
 #### Oppo/ColorOS Thermal Stats Error
 On Oppo/ColorOS devices, you may see errors like:
 ```
-OppoThermalStats: PackageManager$NameNotFoundException: top.niunaijun.blackboxa:p0
+OppoThermalStats: PackageManager$NameNotFoundException: app.viscount.loadera:p0
 ```
 **This is harmless** - it's an Oppo system bug where their thermal management incorrectly uses process names (with `:p0` suffix) instead of package names. The app works normally.
 
