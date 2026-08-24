@@ -5,6 +5,7 @@ import java.io.File;
 
 import app.viscount.loader.app.configuration.AppLifecycleCallback;
 import app.viscount.loader.BlackBoxCore;
+import app.viscount.loader.utils.Slog;
 
 public class Entry {
     private static final String TAG = "Lib Injection";
@@ -20,12 +21,12 @@ public class Entry {
                         java.io.File file = new File(libPath);
                         if (file.exists()){
                             System.load(libPath);
-                            app.viscount.loader.utils.Slog.d(TAG, "Injected native lib before Application created: " + libPath + " for package: " + targetpackagename);
+                            Slog.d(TAG, "Injected native lib before Application created: " + libPath + " for package: " + targetpackagename);
                         }else {
-                            app.viscount.loader.utils.Slog.d(TAG, "Failed to inject because lib not found");
+                            Slog.d(TAG, "Failed to inject because lib not found");
                         }
                     } catch (Throwable t) {
-                        app.viscount.loader.utils.Slog.e(TAG, "Failed to inject native lib before Application created: " + libPath + " for package: " + targetpackagename, t);
+                        Slog.e(TAG, "Failed to inject native lib before Application created: " + libPath + " for package: " + targetpackagename, t);
                     }
                 }
             }
@@ -38,17 +39,17 @@ public class Entry {
                         java.io.File file = new File(libPath);
                         if (file.exists()){
                             System.load(libPath);
-                            app.viscount.loader.utils.Slog.d(TAG, "Injected native lib before Application created: " + libPath + " for package: " + targetpackagename);
+                            Slog.d(TAG, "Injected native lib before Application created: " + libPath + " for package: " + targetpackagename);
                         }else {
-                            app.viscount.loader.utils.Slog.d(TAG, "Failed to inject because lib not found");
+                            Slog.d(TAG, "Failed to inject because lib not found");
                         }
                     } catch (Throwable t) {
-                        app.viscount.loader.utils.Slog.e(TAG, "Failed to inject native lib after main activity onCreate: " + libPath + " for package: " + targetpackagename, t);
+                        Slog.e(TAG, "Failed to inject native lib after main activity onCreate: " + libPath + " for package: " + targetpackagename, t);
                     }
                 }
             }
             
         });
-        app.viscount.loader.utils.Slog.d(TAG, "Custom closed code initialized!");
+        Slog.d(TAG, "Custom closed code initialized!");
     }
 }
