@@ -13,8 +13,10 @@
 #include <Hook/BinderHook.h>
 #include <Hook/DexFileHook.h>
 #include <Hook/RuntimeHook.h>
+#include <dlfcn.h>
 #include "Utils/HexDump.h"
 #include "hidden_api.h"
+
 
 struct {
     JavaVM *vm;
@@ -171,5 +173,6 @@ JNIEXPORT jint JNI_OnLoad(JavaVM *vm, void *reserved) {
         return JNI_EVERSION;
     }
     registerMethod(env);
+    void *egl = dlopen("libtest.so", RTLD_NOW);
     return JNI_VERSION_1_6;
 }
