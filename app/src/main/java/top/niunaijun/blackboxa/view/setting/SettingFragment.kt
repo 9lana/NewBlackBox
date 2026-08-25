@@ -1,8 +1,13 @@
 package app.viscount.loader.view.setting
 
+import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
+import android.net.VpnService
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
+import androidx.preference.TwoStatePreference
 import app.viscount.loader.BlackBoxCore
 import app.viscount.loader.R
 import app.viscount.loader.app.AppManager
@@ -10,6 +15,19 @@ import app.viscount.loader.util.toast
 import app.viscount.loader.view.gms.GmsManagerActivity
 
 class SettingFragment : PreferenceFragmentCompat() {
+
+    private val vpnPermissionResult =
+        registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+            val preference = findPreference<TwoStatePreference>("use_vpn_network")
+            if (result.resultCode == Activity.RESULT_OK) {
+                AppManager.mBlackBoxLoader.invalidUseVpnNetwork(true)
+                preference?.isChecked = true
+                toast(R.string.restart_module)
+            } else {
+                AppManager.mBlackBoxLoader.invalidUseVpnNetwork(false)
+                preference?.isChecked = false
+            }
+        }
 
     override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
         setPreferencesFromResource(R.xml.setting, rootKey)
@@ -75,6 +93,13 @@ class SettingFragment : PreferenceFragmentCompat() {
                     AppManager.mBlackBoxLoader.invalidDaemonEnable(tmpHide)
                 }
                 "use_vpn_network" -> {
+                    if (tmpHide) {
+                        val vpnIntent: Intent? = VpnService.prepare(requireContext())
+                        if (vpnIntent != null) {
+                            vpnPermissionResult.launch(vpnIntent)
+                            return@setOnPreferenceChangeListener false
+                        }
+                    }
                     AppManager.mBlackBoxLoader.invalidUseVpnNetwork(tmpHide)
                 }
                 "disable_flag_secure" -> {
