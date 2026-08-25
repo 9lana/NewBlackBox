@@ -1,4 +1,4 @@
-package app.viscount.loadera.view.list
+package app.viscount.loader.view.list
 
 import android.app.Activity
 import android.content.Context
@@ -12,12 +12,12 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import cbfg.rvadapter.RVAdapter
 import com.ferfalk.simplesearchview.SimpleSearchView
-import app.viscount.loadera.R
-import app.viscount.loadera.bean.InstalledAppBean
-import app.viscount.loadera.databinding.ActivityListBinding
-import app.viscount.loadera.util.InjectionUtil
-import app.viscount.loadera.util.inflate
-import app.viscount.loadera.view.base.BaseActivity
+import app.viscount.loader.R
+import app.viscount.loader.bean.InstalledAppBean
+import app.viscount.loader.databinding.ActivityListBinding
+import app.viscount.loader.util.InjectionUtil
+import app.viscount.loader.util.inflate
+import app.viscount.loader.view.base.BaseActivity
 
 class ListActivity : BaseActivity() {
 

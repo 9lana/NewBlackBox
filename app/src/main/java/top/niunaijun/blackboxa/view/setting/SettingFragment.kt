@@ -1,13 +1,13 @@
-package app.viscount.loadera.view.setting
+package app.viscount.loader.view.setting
 
 import android.os.Bundle
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import app.viscount.loader.BlackBoxCore
-import app.viscount.loadera.R
-import app.viscount.loadera.app.AppManager
-import app.viscount.loadera.util.toast
-import app.viscount.loadera.view.gms.GmsManagerActivity
+import app.viscount.loader.R
+import app.viscount.loader.app.AppManager
+import app.viscount.loader.util.toast
+import app.viscount.loader.view.gms.GmsManagerActivity
 
 class SettingFragment : PreferenceFragmentCompat() {
 

@@ -1,12 +1,12 @@
-package app.viscount.loadera.view.main
+package app.viscount.loader.view.main
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import app.viscount.loader.BlackBoxCore
-import app.viscount.loadera.util.InjectionUtil
-import app.viscount.loadera.view.list.ListViewModel
+import app.viscount.loader.util.InjectionUtil
+import app.viscount.loader.view.list.ListViewModel
 
 class WelcomeActivity : AppCompatActivity() {
 

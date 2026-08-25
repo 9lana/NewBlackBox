@@ -1,9 +1,9 @@
-package app.viscount.loadera.view.main
+package app.viscount.loader.view.main
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import app.viscount.loadera.view.apps.AppsFragment
+import app.viscount.loader.view.apps.AppsFragment
 
 
 

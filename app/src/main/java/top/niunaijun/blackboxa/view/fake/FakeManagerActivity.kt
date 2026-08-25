@@ -1,4 +1,4 @@
-package app.viscount.loadera.view.fake
+package app.viscount.loader.view.fake
 
 import android.app.Activity
 import android.content.Context
@@ -14,13 +14,13 @@ import com.afollestad.materialdialogs.MaterialDialog
 import com.ferfalk.simplesearchview.SimpleSearchView
 import app.viscount.loader.entity.location.BLocation
 import app.viscount.loader.fake.frameworks.BLocationManager
-import app.viscount.loadera.R
-import app.viscount.loadera.bean.FakeLocationBean
-import app.viscount.loadera.databinding.ActivityListBinding
-import app.viscount.loadera.util.InjectionUtil
-import app.viscount.loadera.util.inflate
-import app.viscount.loadera.util.toast
-import app.viscount.loadera.view.base.BaseActivity
+import app.viscount.loader.R
+import app.viscount.loader.bean.FakeLocationBean
+import app.viscount.loader.databinding.ActivityListBinding
+import app.viscount.loader.util.InjectionUtil
+import app.viscount.loader.util.inflate
+import app.viscount.loader.util.toast
+import app.viscount.loader.view.base.BaseActivity
 
 
 class FakeManagerActivity : BaseActivity() {

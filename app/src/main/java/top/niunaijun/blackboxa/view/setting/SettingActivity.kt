@@ -1,12 +1,12 @@
-package app.viscount.loadera.view.setting
+package app.viscount.loader.view.setting
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import app.viscount.loadera.R
-import app.viscount.loadera.databinding.ActivitySettingBinding
-import app.viscount.loadera.util.inflate
-import app.viscount.loadera.view.base.BaseActivity
+import app.viscount.loader.R
+import app.viscount.loader.databinding.ActivitySettingBinding
+import app.viscount.loader.util.inflate
+import app.viscount.loader.view.base.BaseActivity
 
 class SettingActivity : BaseActivity() {
 

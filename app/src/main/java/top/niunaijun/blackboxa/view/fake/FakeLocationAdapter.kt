@@ -1,14 +1,14 @@
-package app.viscount.loadera.view.fake
+package app.viscount.loader.view.fake
 
 import android.view.View
 import android.view.ViewGroup
 import cbfg.rvadapter.RVHolder
 import cbfg.rvadapter.RVHolderFactory
 import app.viscount.loader.fake.frameworks.BLocationManager
-import app.viscount.loadera.R
-import app.viscount.loadera.bean.FakeLocationBean
-import app.viscount.loadera.databinding.ItemFakeBinding
-import app.viscount.loadera.util.getString
+import app.viscount.loader.R
+import app.viscount.loader.bean.FakeLocationBean
+import app.viscount.loader.databinding.ItemFakeBinding
+import app.viscount.loader.util.getString
 
 
 

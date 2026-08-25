@@ -1,13 +1,13 @@
-package app.viscount.loadera.util
+package app.viscount.loader.util
 
-import app.viscount.loadera.data.AppsRepository
-import app.viscount.loadera.data.FakeLocationRepository
-import app.viscount.loadera.data.GmsRepository
+import app.viscount.loader.data.AppsRepository
+import app.viscount.loader.data.FakeLocationRepository
+import app.viscount.loader.data.GmsRepository
 
-import app.viscount.loadera.view.apps.AppsFactory
-import app.viscount.loadera.view.fake.FakeLocationFactory
-import app.viscount.loadera.view.gms.GmsFactory
-import app.viscount.loadera.view.list.ListFactory
+import app.viscount.loader.view.apps.AppsFactory
+import app.viscount.loader.view.fake.FakeLocationFactory
+import app.viscount.loader.view.gms.GmsFactory
+import app.viscount.loader.view.list.ListFactory
 
 
 

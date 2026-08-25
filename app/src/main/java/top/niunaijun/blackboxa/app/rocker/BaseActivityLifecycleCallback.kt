@@ -1,4 +1,4 @@
-package app.viscount.loadera.app.rocker
+package app.viscount.loader.app.rocker
 
 import android.app.Activity
 import android.app.Application

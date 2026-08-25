@@ -1,4 +1,4 @@
-package app.viscount.loadera.bean
+package app.viscount.loader.bean
 
 import android.graphics.drawable.Drawable
 

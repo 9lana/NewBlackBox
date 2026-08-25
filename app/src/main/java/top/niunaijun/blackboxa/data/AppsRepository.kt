@@ -1,4 +1,4 @@
-package app.viscount.loadera.data
+package app.viscount.loader.data
 
 import android.content.pm.ApplicationInfo
 import android.net.Uri
@@ -8,12 +8,12 @@ import androidx.lifecycle.MutableLiveData
 import java.io.File
 import app.viscount.loader.BlackBoxCore
 import app.viscount.loader.utils.AbiUtils
-import app.viscount.loadera.R
-import app.viscount.loadera.app.AppManager
-import app.viscount.loadera.bean.AppInfo
-import app.viscount.loadera.bean.InstalledAppBean
-import app.viscount.loadera.util.MemoryManager
-import app.viscount.loadera.util.getString
+import app.viscount.loader.R
+import app.viscount.loader.app.AppManager
+import app.viscount.loader.bean.AppInfo
+import app.viscount.loader.bean.InstalledAppBean
+import app.viscount.loader.util.MemoryManager
+import app.viscount.loader.util.getString
 
 
 class AppsRepository {

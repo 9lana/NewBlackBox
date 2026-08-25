@@ -1,9 +1,9 @@
-package app.viscount.loadera.view.list
+package app.viscount.loader.view.list
 
 import androidx.lifecycle.MutableLiveData
-import app.viscount.loadera.bean.InstalledAppBean
-import app.viscount.loadera.data.AppsRepository
-import app.viscount.loadera.view.base.BaseViewModel
+import app.viscount.loader.bean.InstalledAppBean
+import app.viscount.loader.data.AppsRepository
+import app.viscount.loader.view.base.BaseViewModel
 
 
 class ListViewModel(private val repo: AppsRepository) : BaseViewModel() {

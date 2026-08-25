@@ -1,9 +1,9 @@
-package app.viscount.loadera.app
+package app.viscount.loader.app
 
 import android.content.Context
 import android.content.SharedPreferences
 import android.util.Log
-import app.viscount.loadera.view.main.BlackBoxLoader
+import app.viscount.loader.view.main.BlackBoxLoader
 
 
 object AppManager {

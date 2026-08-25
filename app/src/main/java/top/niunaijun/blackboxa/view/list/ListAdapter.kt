@@ -1,12 +1,12 @@
-package app.viscount.loadera.view.list
+package app.viscount.loader.view.list
 
 import android.view.View
 import android.view.ViewGroup
 import cbfg.rvadapter.RVHolder
 import cbfg.rvadapter.RVHolderFactory
-import app.viscount.loadera.R
-import app.viscount.loadera.bean.InstalledAppBean
-import app.viscount.loadera.databinding.ItemPackageBinding
+import app.viscount.loader.R
+import app.viscount.loader.bean.InstalledAppBean
+import app.viscount.loader.databinding.ItemPackageBinding
 
 
 

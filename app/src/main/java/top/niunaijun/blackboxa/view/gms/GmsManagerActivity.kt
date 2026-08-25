@@ -1,4 +1,4 @@
-package app.viscount.loadera.view.gms
+package app.viscount.loader.view.gms
 
 import android.content.Context
 import android.content.Intent
@@ -8,13 +8,13 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import cbfg.rvadapter.RVAdapter
 import com.afollestad.materialdialogs.MaterialDialog
-import app.viscount.loadera.R
-import app.viscount.loadera.bean.GmsBean
-import app.viscount.loadera.databinding.ActivityGmsBinding
-import app.viscount.loadera.util.InjectionUtil
-import app.viscount.loadera.util.inflate
-import app.viscount.loadera.util.toast
-import app.viscount.loadera.view.base.LoadingActivity
+import app.viscount.loader.R
+import app.viscount.loader.bean.GmsBean
+import app.viscount.loader.databinding.ActivityGmsBinding
+import app.viscount.loader.util.InjectionUtil
+import app.viscount.loader.util.inflate
+import app.viscount.loader.util.toast
+import app.viscount.loader.view.base.LoadingActivity
 
 
 class GmsManagerActivity : LoadingActivity() {

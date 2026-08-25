@@ -1,4 +1,4 @@
-package app.viscount.loadera.view.base
+package app.viscount.loader.view.base
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar

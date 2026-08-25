@@ -1,4 +1,4 @@
-package app.viscount.loadera.data
+package app.viscount.loader.data
 
 import android.content.pm.ApplicationInfo
 import android.util.Log
@@ -6,7 +6,7 @@ import androidx.lifecycle.MutableLiveData
 import app.viscount.loader.BlackBoxCore
 import app.viscount.loader.entity.location.BLocation
 import app.viscount.loader.fake.frameworks.BLocationManager
-import app.viscount.loadera.bean.FakeLocationBean
+import app.viscount.loader.bean.FakeLocationBean
 
 
 class FakeLocationRepository {

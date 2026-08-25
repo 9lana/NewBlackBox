@@ -1,8 +1,8 @@
-package app.viscount.loadera.view.apps
+package app.viscount.loader.view.apps
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import app.viscount.loadera.data.AppsRepository
+import app.viscount.loader.data.AppsRepository
 
 
 @Suppress("UNCHECKED_CAST")

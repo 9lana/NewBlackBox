@@ -1,4 +1,4 @@
-package app.viscount.loadera.view.apps
+package app.viscount.loader.view.apps
 
 import android.graphics.drawable.Drawable
 import android.view.View
@@ -6,9 +6,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import cbfg.rvadapter.RVHolder
 import cbfg.rvadapter.RVHolderFactory
-import app.viscount.loadera.R
-import app.viscount.loadera.bean.AppInfo
-import app.viscount.loadera.databinding.ItemAppBinding
+import app.viscount.loader.R
+import app.viscount.loader.bean.AppInfo
+import app.viscount.loader.databinding.ItemAppBinding
 import android.util.Log
 import android.graphics.Bitmap
 import android.graphics.Canvas

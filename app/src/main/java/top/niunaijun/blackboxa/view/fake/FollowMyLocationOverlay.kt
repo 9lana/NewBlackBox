@@ -1,4 +1,4 @@
-package app.viscount.loadera.view.fake
+package app.viscount.loader.view.fake
 
 
 import android.app.Activity
@@ -14,9 +14,9 @@ import org.osmdroid.util.GeoPoint
 import org.osmdroid.views.overlay.MapEventsOverlay
 import org.osmdroid.views.overlay.Marker
 import app.viscount.loader.entity.location.BLocation
-import app.viscount.loadera.databinding.ActivityOsmdroidBinding
-import app.viscount.loadera.util.inflate
-import app.viscount.loadera.util.toast
+import app.viscount.loader.databinding.ActivityOsmdroidBinding
+import app.viscount.loader.util.inflate
+import app.viscount.loader.util.toast
 
 
 

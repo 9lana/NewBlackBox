@@ -1,4 +1,4 @@
-package app.viscount.loadera.app
+package app.viscount.loader.app
 
 import android.annotation.SuppressLint
 import android.app.Application

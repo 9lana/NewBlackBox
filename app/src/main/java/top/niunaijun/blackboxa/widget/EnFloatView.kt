@@ -1,9 +1,9 @@
-package app.viscount.loadera.widget
+package app.viscount.loader.widget
 
 import android.content.Context
 import android.view.MotionEvent
 import com.imuxuan.floatingview.FloatingMagnetView
-import app.viscount.loadera.R
+import app.viscount.loader.R
 
 
 class EnFloatView(mContext: Context) : FloatingMagnetView(mContext) {

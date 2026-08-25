@@ -1,4 +1,4 @@
-package app.viscount.loadera.view.apps
+package app.viscount.loader.view.apps
 
 import android.graphics.Point
 import android.os.Bundle
@@ -18,16 +18,16 @@ import androidx.recyclerview.widget.RecyclerView
 import cbfg.rvadapter.RVAdapter
 import com.afollestad.materialdialogs.MaterialDialog
 import app.viscount.loader.BlackBoxCore
-import app.viscount.loadera.R
-import app.viscount.loadera.bean.AppInfo
-import app.viscount.loadera.databinding.FragmentAppsBinding
-import app.viscount.loadera.util.InjectionUtil
-import app.viscount.loadera.util.ShortcutUtil
-import app.viscount.loadera.util.inflate
-import app.viscount.loadera.util.MemoryManager
-import app.viscount.loadera.util.toast
-import app.viscount.loadera.view.base.LoadingActivity
-import app.viscount.loadera.view.main.MainActivity
+import app.viscount.loader.R
+import app.viscount.loader.bean.AppInfo
+import app.viscount.loader.databinding.FragmentAppsBinding
+import app.viscount.loader.util.InjectionUtil
+import app.viscount.loader.util.ShortcutUtil
+import app.viscount.loader.util.inflate
+import app.viscount.loader.util.MemoryManager
+import app.viscount.loader.util.toast
+import app.viscount.loader.view.base.LoadingActivity
+import app.viscount.loader.view.main.MainActivity
 import java.util.*
 import kotlin.math.abs
 

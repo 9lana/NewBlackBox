@@ -1,4 +1,4 @@
-package app.viscount.loadera.view.main
+package app.viscount.loader.view.main
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

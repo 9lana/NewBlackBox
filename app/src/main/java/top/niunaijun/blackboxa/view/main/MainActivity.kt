@@ -1,4 +1,4 @@
-package app.viscount.loadera.view.main
+package app.viscount.loader.view.main
 
 import android.content.Context
 import android.content.Intent
@@ -14,17 +14,17 @@ import androidx.viewpager2.widget.ViewPager2
 import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.input.input
 import app.viscount.loader.BlackBoxCore
-import app.viscount.loadera.R
-import app.viscount.loadera.app.App
-import app.viscount.loadera.app.AppManager
-import app.viscount.loadera.databinding.ActivityMainBinding
-import app.viscount.loadera.util.Resolution
-import app.viscount.loadera.util.inflate
-import app.viscount.loadera.view.apps.AppsFragment
-import app.viscount.loadera.view.base.LoadingActivity
-import app.viscount.loadera.view.fake.FakeManagerActivity
-import app.viscount.loadera.view.list.ListActivity
-import app.viscount.loadera.view.setting.SettingActivity
+import app.viscount.loader.R
+import app.viscount.loader.app.App
+import app.viscount.loader.app.AppManager
+import app.viscount.loader.databinding.ActivityMainBinding
+import app.viscount.loader.util.Resolution
+import app.viscount.loader.util.inflate
+import app.viscount.loader.view.apps.AppsFragment
+import app.viscount.loader.view.base.LoadingActivity
+import app.viscount.loader.view.fake.FakeManagerActivity
+import app.viscount.loader.view.list.ListActivity
+import app.viscount.loader.view.setting.SettingActivity
 
 class MainActivity : LoadingActivity() {
 

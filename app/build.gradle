@@ -5,7 +5,7 @@ plugins {
 
 android {
 
-    namespace 'app.viscount.loadera'
+    namespace 'app.viscount.loader'
     compileSdk rootProject.ext.compileSdkVersion
     ndkVersion = "29.0.13846066"
     defaultConfig {

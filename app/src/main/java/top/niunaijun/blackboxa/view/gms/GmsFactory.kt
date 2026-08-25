@@ -1,8 +1,8 @@
-package app.viscount.loadera.view.gms
+package app.viscount.loader.view.gms
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import app.viscount.loadera.data.GmsRepository
+import app.viscount.loader.data.GmsRepository
 
 
 class GmsFactory(private val repo:GmsRepository): ViewModelProvider.NewInstanceFactory() {

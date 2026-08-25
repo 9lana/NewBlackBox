@@ -1,4 +1,4 @@
-package app.viscount.loadera.view.base
+package app.viscount.loader.view.base
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

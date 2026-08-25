@@ -1,7 +1,7 @@
-package app.viscount.loadera.util
+package app.viscount.loader.util
 
 import androidx.annotation.StringRes
-import app.viscount.loadera.app.App
+import app.viscount.loader.app.App
 
 
 fun getString(@StringRes id:Int,vararg arg:String):String{

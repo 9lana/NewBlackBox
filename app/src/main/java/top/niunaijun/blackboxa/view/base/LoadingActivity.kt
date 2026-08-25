@@ -1,8 +1,8 @@
-package app.viscount.loadera.view.base
+package app.viscount.loader.view.base
 
 import android.view.KeyEvent
 import com.roger.catloadinglibrary.CatLoadingView
-import app.viscount.loadera.R
+import app.viscount.loader.R
 
 
 abstract class LoadingActivity : BaseActivity() {

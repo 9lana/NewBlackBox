@@ -1,4 +1,4 @@
-package app.viscount.loadera.view.main
+package app.viscount.loader.view.main
 
 import android.app.Application
 import android.content.Context
@@ -8,9 +8,9 @@ import app.viscount.loader.BlackBoxCore
 import app.viscount.loader.app.BActivityThread
 import app.viscount.loader.app.configuration.AppLifecycleCallback
 import app.viscount.loader.app.configuration.ClientConfiguration
-import app.viscount.loadera.app.App
-import app.viscount.loadera.app.rocker.RockerManager
-import app.viscount.loadera.biz.cache.AppSharedPreferenceDelegate
+import app.viscount.loader.app.App
+import app.viscount.loader.app.rocker.RockerManager
+import app.viscount.loader.biz.cache.AppSharedPreferenceDelegate
 
 
 class BlackBoxLoader {
@@ -193,7 +193,7 @@ class BlackBoxLoader {
                                         
                                         val intent =
                                                 android.content.Intent(
-                                                        "app.viscount.loadera.REQUEST_STORAGE_PERMISSION"
+                                                        "app.viscount.loader.REQUEST_STORAGE_PERMISSION"
                                                 )
                                         intent.putExtra("package_name", packageName)
                                         intent.putExtra("user_id", userId)

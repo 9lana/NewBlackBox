@@ -1,9 +1,9 @@
-package app.viscount.loadera.util
+package app.viscount.loader.util
 
 import android.content.Context
 import android.widget.Toast
 import androidx.annotation.StringRes
-import app.viscount.loadera.app.App
+import app.viscount.loader.app.App
 
 
 var toastImpl:Toast? = null

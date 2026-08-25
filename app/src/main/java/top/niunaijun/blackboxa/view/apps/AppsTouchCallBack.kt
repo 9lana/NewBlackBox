@@ -1,4 +1,4 @@
-package app.viscount.loadera.view.apps
+package app.viscount.loader.view.apps
 
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView

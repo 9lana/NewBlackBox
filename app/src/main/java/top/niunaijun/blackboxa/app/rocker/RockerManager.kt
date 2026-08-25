@@ -1,4 +1,4 @@
-package app.viscount.loadera.app.rocker
+package app.viscount.loader.app.rocker
 
 import android.app.Activity
 import android.app.Application
@@ -13,8 +13,8 @@ import kotlin.math.cos
 import kotlin.math.sin
 import app.viscount.loader.entity.location.BLocation
 import app.viscount.loader.fake.frameworks.BLocationManager
-import app.viscount.loadera.app.App
-import app.viscount.loadera.widget.EnFloatView
+import app.viscount.loader.app.App
+import app.viscount.loader.widget.EnFloatView
 
 
 

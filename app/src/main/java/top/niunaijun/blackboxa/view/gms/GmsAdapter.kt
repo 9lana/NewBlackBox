@@ -1,12 +1,12 @@
-package app.viscount.loadera.view.gms
+package app.viscount.loader.view.gms
 
 import android.view.View
 import android.view.ViewGroup
 import cbfg.rvadapter.RVHolder
 import cbfg.rvadapter.RVHolderFactory
-import app.viscount.loadera.R
-import app.viscount.loadera.bean.GmsBean
-import app.viscount.loadera.databinding.ItemGmsBinding
+import app.viscount.loader.R
+import app.viscount.loader.bean.GmsBean
+import app.viscount.loader.databinding.ItemGmsBinding
 
 
 class GmsAdapter : RVHolderFactory() {

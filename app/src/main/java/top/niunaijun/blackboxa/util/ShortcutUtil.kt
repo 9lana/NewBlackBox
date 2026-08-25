@@ -1,4 +1,4 @@
-package app.viscount.loadera.util
+package app.viscount.loader.util
 
 import android.content.Context
 import android.content.Intent
@@ -8,12 +8,12 @@ import androidx.core.graphics.drawable.IconCompat
 import androidx.core.graphics.drawable.toBitmap
 import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.input.input
-import app.viscount.loadera.R
-import app.viscount.loadera.app.App
-import app.viscount.loadera.app.AppManager
-import app.viscount.loadera.bean.AppInfo
-import app.viscount.loadera.util.ContextUtil.openAppSystemSettings
-import app.viscount.loadera.view.main.ShortcutActivity
+import app.viscount.loader.R
+import app.viscount.loader.app.App
+import app.viscount.loader.app.AppManager
+import app.viscount.loader.bean.AppInfo
+import app.viscount.loader.util.ContextUtil.openAppSystemSettings
+import app.viscount.loader.view.main.ShortcutActivity
 
 
 object ShortcutUtil {

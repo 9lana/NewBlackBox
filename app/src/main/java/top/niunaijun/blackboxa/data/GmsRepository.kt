@@ -1,12 +1,12 @@
-package app.viscount.loadera.data
+package app.viscount.loader.data
 
 import androidx.lifecycle.MutableLiveData
 import app.viscount.loader.BlackBoxCore
-import app.viscount.loadera.R
-import app.viscount.loadera.app.AppManager
-import app.viscount.loadera.bean.GmsBean
-import app.viscount.loadera.bean.GmsInstallBean
-import app.viscount.loadera.util.getString
+import app.viscount.loader.R
+import app.viscount.loader.app.AppManager
+import app.viscount.loader.bean.GmsBean
+import app.viscount.loader.bean.GmsInstallBean
+import app.viscount.loader.util.getString
 
 
 class GmsRepository {

@@ -53,7 +53,7 @@ static const char* blocked_files[] = {
     "/data/data/com.lbe.parallel",
     "/data/data/com.dual.dualspace",
     "/data/data/com.ludashi.superboost",
-    "/data/data/app.viscount.loadera",
+    "/data/data/app.viscount.loader",
     "/blackbox",
     "/virtual",
     

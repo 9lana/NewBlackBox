@@ -1,4 +1,4 @@
-package app.viscount.loadera.data
+package app.viscount.loader.data
 
 import android.content.pm.ApplicationInfo
 

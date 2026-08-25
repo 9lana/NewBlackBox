@@ -1,4 +1,4 @@
-package app.viscount.loadera.util;
+package app.viscount.loader.util;
 
 import android.graphics.Point;
 import android.graphics.PointF;

@@ -1,9 +1,9 @@
-package app.viscount.loadera.view.apps
+package app.viscount.loader.view.apps
 
 import androidx.lifecycle.MutableLiveData
-import app.viscount.loadera.bean.AppInfo
-import app.viscount.loadera.data.AppsRepository
-import app.viscount.loadera.view.base.BaseViewModel
+import app.viscount.loader.bean.AppInfo
+import app.viscount.loader.data.AppsRepository
+import app.viscount.loader.view.base.BaseViewModel
 import android.util.Log
 
 

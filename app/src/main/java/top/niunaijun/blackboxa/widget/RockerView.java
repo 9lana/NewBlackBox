@@ -1,4 +1,4 @@
-package app.viscount.loadera.widget;
+package app.viscount.loader.widget;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -18,7 +18,7 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import app.viscount.loadera.util.MathUtil;
+import app.viscount.loader.util.MathUtil;
 
 
 
