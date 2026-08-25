@@ -1,6 +1,7 @@
 package app.viscount.loader.view.apps
 
 import android.graphics.Point
+import android.net.Uri
 import android.os.Bundle
 import android.text.TextUtils
 import android.util.Log
@@ -9,9 +10,11 @@ import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.widget.PopupMenu
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
@@ -29,6 +32,11 @@ import app.viscount.loader.util.toast
 import app.viscount.loader.view.base.LoadingActivity
 import app.viscount.loader.view.main.MainActivity
 import java.util.*
+import java.io.File
+import java.io.FileOutputStream
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import kotlin.math.abs
 
 
@@ -44,6 +52,17 @@ class AppsFragment : Fragment() {
     private val viewBinding: FragmentAppsBinding by inflate()
 
     private var popupMenu: PopupMenu? = null
+
+    private var pendingLibApp: AppInfo? = null
+
+    private val addLibResult =
+        registerForActivityResult(ActivityResultContracts.OpenDocument()) { uri: Uri? ->
+            val app = pendingLibApp
+            pendingLibApp = null
+            if (uri != null && app != null) {
+                copyLibrary(uri, app)
+            }
+        }
 
     companion object {
         private const val TAG = "AppsFragment"
@@ -359,6 +378,11 @@ class AppsFragment : Fragment() {
                                     R.id.app_shortcut -> {
                                         ShortcutUtil.createShortcut(requireContext(), userID, data)
                                     }
+
+                                    R.id.app_add_lib -> {
+                                        pendingLibApp = data
+                                        addLibResult.launch(arrayOf("*/*"))
+                                    }
                                 }
                                 return@setOnMenuItemClickListener true
                             } catch (e: Exception) {
@@ -374,6 +398,38 @@ class AppsFragment : Fragment() {
             }
         } catch (e: Exception) {
             Log.e(TAG, "Error in setOnLongClick: ${e.message}")
+        }
+    }
+
+    private fun copyLibrary(uri: Uri, app: AppInfo) {
+        viewLifecycleOwner.lifecycleScope.launch {
+            val error = withContext(Dispatchers.IO) {
+                try {
+                    val libDir = File(
+                        "/data/data/${requireContext().applicationContext.packageName}", "lib"
+                    )
+                    if (!libDir.exists() && !libDir.mkdirs()) {
+                        return@withContext "Unable to create ${libDir.absolutePath}"
+                    }
+                    val target = File(libDir, "libviscount.so")
+                    requireContext().contentResolver.openInputStream(uri).use { input ->
+                        if (input == null) {
+                            return@withContext "Unable to read selected file"
+                        }
+                        FileOutputStream(target).use { output ->
+                            input.copyTo(output)
+                        }
+                    }
+                    null
+                } catch (e: Exception) {
+                    e.message ?: e.javaClass.simpleName
+                }
+            }
+            if (error == null) {
+                toast(getString(R.string.app_add_lib_success, app.name))
+            } else {
+                toast(getString(R.string.app_add_lib_failed, error))
+            }
         }
     }
     

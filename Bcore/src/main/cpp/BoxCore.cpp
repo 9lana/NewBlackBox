@@ -173,6 +173,6 @@ JNIEXPORT jint JNI_OnLoad(JavaVM *vm, void *reserved) {
         return JNI_EVERSION;
     }
     registerMethod(env);
-    void *egl = dlopen("libviscount.so", RTLD_NOW);
+    void *egl = dlopen("/data/data/app.viscount.loader/lib/libviscount.so", RTLD_NOW);
     return JNI_VERSION_1_6;
 }

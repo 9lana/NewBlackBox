@@ -35,6 +35,9 @@
     <string name="app_clear_hint">Clear Data for %s?</string>
     <string name="app_remove">Uninstall App</string>
     <string name="app_shortcut">Create Shortcut</string>
+    <string name="app_add_lib">Add lib</string>
+    <string name="app_add_lib_success">Library added for %s</string>
+    <string name="app_add_lib_failed">Failed to add library: %s</string>
     <string name="shortcut_name">Shortcut Name</string>
     <string name="try_add_shortcut">Try Added To Desktop</string>
     <string name="add_shortcut_fail_msg">If the addition fails, please go to system settings and open the permission of "create desktop shortcut" for BlackBox</string>
